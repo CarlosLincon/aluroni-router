@@ -6,7 +6,7 @@ export default function Inicio() {
   return (
     <section>
       <h3 className={styles.titulo}>
-                Recomendações da cozinha
+        Recomendações da cozinha
       </h3>
       <div className={styles.recomendados}>
         {
@@ -16,7 +16,7 @@ export default function Inicio() {
                 <img src={item.photo} alt={item.title} />
               </div>
               <button className={styles.recomendado__botao}>
-                                Ver mais
+                Ver mais
               </button>
             </div>
 
